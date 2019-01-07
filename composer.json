@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "william-lindner/dotseek",
-=======
-  "name": "windner/dotseek",
->>>>>>> d051e2b0b5739c99b949059728d37f5ca4f7ef02
   "description": "A recursive function to find a dataset in an array based on dot separated string.",
   "keywords": [
     "dot notation",
