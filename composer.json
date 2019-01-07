@@ -1,0 +1,13 @@
+{
+    "name": "william/dotseek",
+    "description": "A recursive function to find a dataset in an array based on dot separated string.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "william-lindner",
+            "email": "wlindner@apple.com"
+        }
+    ],
+    "require": {}
+}
