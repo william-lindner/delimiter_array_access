@@ -1,5 +1,5 @@
 {
-  "name": "william/dotseek",
+  "name": "windner/dotseek",
   "description": "A recursive function to find a dataset in an array based on dot separated string.",
   "keywords": [
     "dot notation",
