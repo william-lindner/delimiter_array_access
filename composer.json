@@ -1,13 +1,24 @@
 {
-    "name": "william/dotseek",
-    "description": "A recursive function to find a dataset in an array based on dot separated string.",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "william-lindner",
-            "email": "wlindner@apple.com"
-        }
-    ],
-    "require": {}
+  "name": "william/dotseek",
+  "description": "A recursive function to find a dataset in an array based on dot separated string.",
+  "keywords": [
+    "dot notation",
+    "dot",
+    "dot array",
+    "associative array"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "william-lindner",
+      "email": "wlindner@apple.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "files": [
+      "src/dotseek.php"
+    ]
+  }
 }
