@@ -1,2 +1,3 @@
 # DotSeek
-A recursive function to find a dataset in an array based on dot separated string.
+
+A function set to find a datasets in arrays or files based on dot separated strings.
