@@ -1,22 +1,24 @@
 <?php
 
-/**
- * Linear time complexity function to traverse associative arrays using dot notation.
- *
- * @return any
- */
-function dotseek(string $needle, array $haystack)
-{
-    $jumps = explode('.', $needle);
-    $hay   = &$haystack;
+if(! function_exists('dotseek')) {
+    /**
+     * Linear time complexity function to traverse associative arrays using dot notation.
+     *
+     * @return any
+     */
+    function dotseek(string $needle, array $haystack)
+    {
+        $jumps = explode('.', $needle);
+        $hay   = &$haystack;
 
-    foreach ($jumps as $jump) {
-        if (!isset($hay[$jump])) {
-            return null;
+        foreach ($jumps as $jump) {
+            if (!isset($hay[$jump])) {
+                return null;
+            }
+
+            $hay = $haystack[$jump];
         }
 
-        $hay = $haystack[$jump];
+        return $hay;
     }
-
-    return $hay;
 }
