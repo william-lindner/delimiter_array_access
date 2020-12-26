@@ -1,20 +1,48 @@
-# DotSeek
+# Dot Array
 
-A function set to find a datasets in arrays or files based on dot separated strings.
+Dot array is a function that allows for the finding of array values by dot notation.
 
+> Sometimes it's just easier to read accessing array chains by a string with a delimiter.
+> Instead of compound, chained accessors that may lead to unexpected errors this
+> function is null safe. This isn't trying to be fast. It's trying to provide
+> developers options in how they want their code read.
 
-## Examples
+### Descripton
+
+```php
+dot_array ( string $needle , array $haystack [, string $delimiter = '.' ] ) : mixed
+```
+
+### Installation
+
+```sh
+$ composer require william-lindner/dot_array
+```
+
+### Parameters
+
+**needle**
+: The string with delimiter you want parsed to extract the value from the array.
+
+**haystack**
+: The array being parsed to find the value.
+
+**delimiter**
+: The optional delimiter for the string needle, defaulting to a period.
+
+### Example
+
+In the following example the value nested within the array is extracted using the default delimiter of a period.
 
 ```php
 $myArray = [
   'my' => [
     'assoc' => [
-      'array' => [
-        'found my info!'
-      ]
+      'array' => 'I found a value.'
     ]
   ]
 ];
 
-dotseek('my.assoc.array', $myArray);
+// This will output 'I found a value.'
+echo dot_array('my.assoc.array', $myArray) . PHP_EOL;
 ```
