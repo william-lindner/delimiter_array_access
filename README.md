@@ -22,13 +22,13 @@ $ composer require william-lindner/dot_array
 ### Parameters
 
 **needle**  
-> The string with delimiter you want parsed to extract the value from the array.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The string with delimiter you want parsed to extract the value from the array.
 
 **haystack**  
-> The array being parsed to find the value.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The array being parsed to find the value.
 
 **delimiter**  
-> The optional delimiter for the string needle, defaulting to a period.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The optional delimiter for the string needle, defaulting to a period.
 
 ### Example
 
