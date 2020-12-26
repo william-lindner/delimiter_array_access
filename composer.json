@@ -1,6 +1,6 @@
 {
-  "name": "william-lindner/dotseek",
-  "description": "A recursive function to find a dataset in an array based on dot separated string.",
+  "name": "william-lindner/dot_array",
+  "description": "An accessor function for arrays that allows you to find nested values by delimited notation.",
   "keywords": [
     "dot notation",
     "dot",
@@ -11,13 +11,15 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "william-lindner",
+      "name": "William Lindner"
     }
   ],
-  "require": {},
   "autoload": {
     "files": [
-      "src/dotseek.php"
+      "src/dot_array.php"
     ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
   }
 }
