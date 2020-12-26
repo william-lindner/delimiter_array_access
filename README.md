@@ -15,20 +15,20 @@ dot_array ( string $needle , array $haystack [, string $delimiter = '.' ] ) : mi
 
 ### Installation
 
-```sh
+```bash
 $ composer require william-lindner/dot_array
 ```
 
 ### Parameters
 
-**needle**
-: The string with delimiter you want parsed to extract the value from the array.
+**needle**  
+> The string with delimiter you want parsed to extract the value from the array.
 
-**haystack**
-: The array being parsed to find the value.
+**haystack**  
+> The array being parsed to find the value.
 
-**delimiter**
-: The optional delimiter for the string needle, defaulting to a period.
+**delimiter**  
+> The optional delimiter for the string needle, defaulting to a period.
 
 ### Example
 
