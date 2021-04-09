@@ -1,8 +1,9 @@
 <?php
 
-if(! function_exists('dot_array')) {
+if(! function_exists('delimiter_array_access')) {
     /**
      * Null safe accessor function for an array based on a delimiter.
+     * By default the delimiter is a period.
      *
      * @param  string  $needle
      * @param  array   $haystack
@@ -10,7 +11,7 @@ if(! function_exists('dot_array')) {
      *
      * @return mixed
      */
-    function dot_array(string $needle, array $haystack, string $delimiter = '.')
+    function delimiter_array_access(string $needle, array $haystack, string $delimiter = '.')
     {
         $jumps = explode($delimiter, $needle);
         $hay   = &$haystack;

@@ -1,6 +1,6 @@
-# Dot Array
+# Delimiter Array Access
 
-Dot array is a function that allows for the finding of array values by dot notation.
+Delimiter array access is a function that allows for the finding of array values by dot notation.
 
 > Sometimes it's just easier to read accessing array chains by a string with a delimiter.
 > Instead of compound, chained accessors that may lead to unexpected errors this
@@ -10,13 +10,13 @@ Dot array is a function that allows for the finding of array values by dot notat
 ### Descripton
 
 ```php
-dot_array ( string $needle , array $haystack [, string $delimiter = '.' ] ) : mixed
+delimiter_array_access ( string $needle , array $haystack [, string $delimiter = '.' ] ) : mixed
 ```
 
 ### Installation
 
 ```bash
-$ composer require william-lindner/dot_array
+$ composer require william-lindner/delimiter_array_access
 ```
 
 ### Parameters
@@ -44,5 +44,5 @@ $myArray = [
 ];
 
 // This will output 'I found a value.'
-echo dot_array('my.assoc.array', $myArray) . PHP_EOL;
+echo delimiter_array_access('my.assoc.array', $myArray) . PHP_EOL;
 ```

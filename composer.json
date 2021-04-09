@@ -1,5 +1,5 @@
 {
-  "name": "william-lindner/dot_array",
+  "name": "william-lindner/delimiter_array_access",
   "description": "An accessor function for arrays that allows you to find nested values by delimited notation.",
   "keywords": [
     "dot notation",
@@ -16,10 +16,7 @@
   ],
   "autoload": {
     "files": [
-      "src/dot_array.php"
+      "src/delimiter_array_access.php"
     ]
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^9.5"
   }
 }
