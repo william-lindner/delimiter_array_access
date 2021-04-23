@@ -21,13 +21,13 @@ $ composer require william-lindner/delimiter_array_access
 
 ### Parameters
 
-**needle**  (_Required_)
+**needle** (_Required_)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The string with delimiter you want parsed to extract the value from the array.
 
-**haystack**  (_Required_)
+**haystack** (_Required_)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The array being parsed to find the value.
 
-**delimiter**  (_Optional_)
+**delimiter** (_Optional_)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The optional delimiter for the string needle, defaulting to a period.
 
 ### Example
